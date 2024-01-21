@@ -67,7 +67,7 @@ const Folder = ({ explorerData, handleInsertNode }) => {
               <span>{showInput.isFolder ? "📁" : "📄"}</span>
               <input
                 className="inputContainerInput"
-                autofocus
+                autoFocus
                 onKeyDown={onAddFolder}
                 onBlur={() => setShowInput({ ...showInput, visible: false })}
                 type="text"
